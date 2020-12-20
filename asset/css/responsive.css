@@ -181,6 +181,7 @@ Version: 1.0
 
     #contact .container-opening .box-contact form,
     #contact .container-opening .box-contact .detail-contact{ min-width: 130px; width: 100%;}
+    .container-overlay .overlay .box-caption{ flex-direction: column; }
 }
 /* =====end width Screen max 360px===== */
 
@@ -210,7 +211,7 @@ Version: 1.0
     .footer .container-footer span a{ font-size: 12px;}
     #works .container-opening nav ul li{ font-size: 12px;}
     .container-overlay .overlay .txt-title{ font-size: 20px;}
-    .container-overlay .overlay .box-caption{ padding: 5px;}
+    .container-overlay .overlay .box-caption{ flex-direction: column; }
 
     .container-overlay .overlay .box-caption .projt,
     .container-overlay .overlay .box-caption .usn,
@@ -269,7 +270,7 @@ Version: 1.0
     .footer .container-footer span{ font-size: 15px; display: flex; flex-direction: column;}
     .footer .container-footer span a{ font-size: 18px;}
     .container-overlay .overlay .txt-title{ font-size: 15px;}
-    .container-overlay .overlay .box-caption{ padding: 5px; margin-top: -15px;}
+    .container-overlay .overlay .box-caption{ flex-direction: column; }
 
     .container-overlay .overlay .box-caption .projt,
     .container-overlay .overlay .box-caption .usn,
