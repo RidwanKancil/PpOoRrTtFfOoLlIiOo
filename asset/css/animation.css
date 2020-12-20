@@ -1,0 +1,121 @@
+/*====================================================================================================
+
+--------------------------Detail--------------------------
+
+Theme Name: Kancil Project | Simple Portfolio
+Author: Ridwan ( Akang Kancil )
+Support: akangkancil@yahoo.com
+Descriptions: Kancil Project HTML Template With Category Simple Portfolio
+Version: 1.0
+
+--------------------------Sitemap Code--------------------------
+
+1.animation up
+2.animation show up
+
+====================================================================================================*/
+
+/* =====1.animation up===== */
+
+@-o-keyframes up{
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-700px);
+    }
+}
+@-moz-keyframes up{
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-700px);
+    }
+}
+@-webkit-keyframes up{
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-700px);
+    }
+}
+@keyframes up{
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-700px);
+    }
+}
+
+/* =====end animation up===== */
+
+/* =====2.animation show up===== */
+
+@-webkit-keyframes showup{
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@-moz-keyframes showup{
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@-o-keyframes showup{
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes showup{
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+/* =====end animation show up===== */
