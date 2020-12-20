@@ -759,6 +759,7 @@ section{
 .container-overlay .overlay .thumbnail .pict-thumb{
     display: block;
     width: auto;
+    height: 100%;
     max-width: 100%;
     box-sizing: border-box;
     padding: 25px;
