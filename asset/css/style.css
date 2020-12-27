@@ -9,7 +9,7 @@ Descriptions: Kancil Project HTML Template With Category Simple Portfolio
 Version: 1.0
 
 --------------------------Sitemap Code--------------------------
-
+0.font
 1.reset css
 2.custom
 --->  2.1.title      
@@ -27,10 +27,15 @@ Version: 1.0
 
 ====================================================================================================*/
 
+/* -----0.font------ */
+@font-face{ font-family: "FreeSans"; src: url("freefont-20080323/FreeSans.otf"); }
+/* -----end font------ */
+
 /* -----1.reset------ */
 *{
     margin: 0;
     padding: 0;
+    font-family: "FreeSans";
 }
 /* -----end reset------ */
 
@@ -39,7 +44,6 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: "ubuntu";
     overflow-x: hidden;
 }
 .active{
@@ -696,6 +700,7 @@ section{
 /* -----4.4.overlay------ */
 
 .container-overlay{
+    overflow: auto;
     display: none;
     z-index: -9999;
     position: fixed;
@@ -705,18 +710,17 @@ section{
     bottom: 0;
     right: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     color: #ffffff;
 }
 .container-overlay .overlay{  
     position: relative;
     width: 95%;
-    height: 95%;
+    height: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-content: center;
-    overflow-y: auto;
 }
 .container-overlay .overlay .bub{
     z-index:-1;
@@ -747,8 +751,11 @@ section{
     width: 200px;
     padding: 5px;
 }
+.container-overlay .overlay .box-caption .prvw a{
+    color: #ffffff;
+}
 .container-overlay .overlay .thumbnail{
-    margin: auto;
+    margin: 15px auto;
 }
 .container-overlay .overlay .thumbnail .pict-thumb{
     max-width: 100%;
@@ -935,6 +942,7 @@ section{
 }
 #article .container-opening .container-article .box-article p {
     font-weight: lighter;
+    color: #5c6470;
 }
 #article .container-opening .container-article .box-article p a{
     text-decoration: none;
